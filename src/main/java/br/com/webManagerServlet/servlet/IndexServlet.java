@@ -1,4 +1,4 @@
-package br.com.manager.servlet;
+package br.com.webManagerServlet.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,7 +10,13 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = "/index")
 public class IndexServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
 
+	/*
+	 * class name="service" can be changed to doPost or doGet, it'll only accept
+	 * POST for doPost and GET for doGet
+	 * GET = Acessa | Post = Altera/Cadastra
+	 */
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
@@ -22,7 +28,7 @@ public class IndexServlet extends HttpServlet {
 		out.println("</html>");
 
 		System.out.println("O servlet foi IndexServlet chamado.");
-		
+
 	}
 
 }
