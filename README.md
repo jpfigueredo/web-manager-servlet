@@ -4,8 +4,8 @@
 
 ## Social Midias
 
-- [LinkedIn: https://www.linkedin.com/in/jpfigueredo/](#LinkedIn)
-- [Instagram: https://www.instagram.com/figfig.jpg/](#instagram)
+- LinkedIn: https://www.linkedin.com/in/jpfigueredo/
+- Instagram: https://www.instagram.com/figfig.jpg/
 
 ## What you should know beforehand
 - Java programming
