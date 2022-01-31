@@ -19,8 +19,8 @@ public class RemoveCompanyServlet extends HttpServlet {
 		Integer id = Integer.valueOf(idParam);
 		System.out.println(id);
 
-		Banco banco = new Banco();
-		banco.removeCompany(id);
+		Bank bank = new Bank();
+		bank.removeCompany(id);
 		response.sendRedirect("companiesList");
 
 	}

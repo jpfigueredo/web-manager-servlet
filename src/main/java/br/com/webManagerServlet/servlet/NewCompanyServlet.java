@@ -24,8 +24,8 @@ public class NewCompanyServlet extends HttpServlet {
 		/* .getParameter always return a String */
 		String companyName = request.getParameter("name");
 		String companyOpeningDate = request.getParameter("date");
-		
-//		Reading and Parsing
+
+		/* Reading and Parsing */
 		Date openingDate = null;
 		try {
 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -37,14 +37,14 @@ public class NewCompanyServlet extends HttpServlet {
 		Company company = new Company();
 		company.setName(companyName);
 		company.setOpeningDate(openingDate);
-		
-		Banco banco = new Banco();
-		banco.adiciona(company);
 
-        request.setAttribute("company", company.getName());
+		Bank bank = new Bank();
+		bank.adiciona(company);
 
-        //redirecionando pelo navegador
-        response.sendRedirect("companiesList");
+		request.setAttribute("company", company.getName());
+
+		/* Redirecionando pelo navegador */
+		response.sendRedirect("companiesList");
 	}
 
 }

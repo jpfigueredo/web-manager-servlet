@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Companies List</title>
 </head>
 <body>
 	Companies list: <br/>

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Banco {
+public class Bank {
 
 	private static List<Company> companyList = new ArrayList<>();
 	private static Integer primaryKey = 1;
@@ -21,12 +21,12 @@ public class Banco {
 	}
 
 	public void adiciona(Company company) {
-		company.setId(Banco.primaryKey++);
-		Banco.companyList.add(company);
+		company.setId(Bank.primaryKey++);
+		Bank.companyList.add(company);
 	}
 
 	public static List<Company> getCompanyList() {
-		return Banco.companyList;
+		return Bank.companyList;
 	}
 
 	public void removeCompany(Integer id) {

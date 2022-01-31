@@ -14,8 +14,9 @@ public class IndexServlet extends HttpServlet {
 
 	/*
 	 * class name="service" can be changed to doPost or doGet, it'll only accept
-	 * POST for doPost and GET for doGet
-	 * GET = Acessa | Post = Altera/Cadastra
+	 * POST for doPost and GET for doGet 
+	 * GET = Access data 
+	 * Post = Sets data on Request, Alters/Register
 	 */
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -28,7 +29,5 @@ public class IndexServlet extends HttpServlet {
 		out.println("</html>");
 
 		System.out.println("O servlet foi IndexServlet chamado.");
-
 	}
-
 }

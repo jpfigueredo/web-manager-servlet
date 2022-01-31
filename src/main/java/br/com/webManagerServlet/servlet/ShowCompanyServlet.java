@@ -20,8 +20,8 @@ public class ShowCompanyServlet extends HttpServlet {
 		String idParam = request.getParameter("id");
 		Integer id = Integer.valueOf(idParam);
 		
-		Banco banco = new Banco();
-		Company company = banco.findById(id);
+		Bank bank = new Bank();
+		Company company = bank.findById(id);
 		System.out.println(company.getName());
 
 		request.setAttribute("company", company);

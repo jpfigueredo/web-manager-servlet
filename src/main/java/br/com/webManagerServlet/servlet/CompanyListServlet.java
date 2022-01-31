@@ -17,8 +17,8 @@ public class CompanyListServlet extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		Banco banco = new Banco();
-		List<Company> list = banco.getCompanyList();
+		Bank bank = new Bank();
+		List<Company> list = bank.getCompanyList();
 
 		/* Add list to request */
 		request.setAttribute("companies", list);

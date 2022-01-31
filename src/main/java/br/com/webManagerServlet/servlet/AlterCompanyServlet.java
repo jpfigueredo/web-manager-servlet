@@ -36,8 +36,8 @@ public class AlterCompanyServlet extends HttpServlet {
 		
 		System.out.println(id);
 		
-		Banco banco = new Banco();
-		Company company = banco.findById(id);
+		Bank bank = new Bank();
+		Company company = bank.findById(id);
 		company.setName(companyName);
 		company.setOpeningDate(openingDate);
 		

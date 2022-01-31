@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Alter Company Form</title>
 </head>
 <body>
 	<form action="${linkServletNewCompany}" method="post">

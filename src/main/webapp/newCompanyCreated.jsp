@@ -7,18 +7,20 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>SUCCESS!</title>
 </head>
 <body>
 	<core:if test="${not empty company}">
 		Company ${company} successfully registered.
 	</core:if>
+	
 	<core:if test="${empty company}">
 		Company has not been registered.
 	</core:if>
+	<!-- 
 	<core:forEach var="i" begin="1" end="10" step="2">
 	  ${i} <br />
 	</core:forEach>
-	
+	-->
 </body>
 </html>
