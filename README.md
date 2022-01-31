@@ -269,10 +269,9 @@ public class Bank {
 ```
 
 
-## Páginas dinâmicas com JSP
+## Dinamic pages with JSP
 ## JSTL e Expression Language
-## Redirecionando o fluxo
-## Completando o CRUD
-## Deploy da aplicação
-
+## Redirecting
+## CRUD
+## Application Deploy
 
