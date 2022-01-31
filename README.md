@@ -120,7 +120,20 @@ Hit **Finish**.
 
 Remove the constructor and comments and it should look like this.
 
-![image](https://user-images.githubusercontent.com/63759223/151853494-b4c7cd1a-c4b2-4b15-920d-c4da3a084ca6.png)
+```java
+package br.com.webManagerServlet.servlet;
+
+@WebServlet(urlPatterns = "/index")
+public class WelcomeServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		System.out.println("IndexServlet servlet is beeing called.");
+	}
+}
+```
+
 
 ## Working with GET and POST
 
