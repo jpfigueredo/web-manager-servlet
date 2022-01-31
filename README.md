@@ -1,21 +1,27 @@
-<h1>webManagerServlet</h1>
-<h2>Web application project focused on Servlet management.</h2>
-<ul>
-	<li>LinkedIn: https://www.linkedin.com/in/jpfigueredo/</li>
-	<li>Instagram: https://www.instagram.com/figfig.jpg/</li>
-</ul>
+# webManagerServlet
 
-Sumário
-<ul>
-<li>O que você vai aprender</li>
-<li>Pré-requisitos</li>
-<li>Visão geral sobre mapeamento objeto-relacional</li>
-<li>JPA</li>
-<li>Criando uma aplicação simples</li>
-</ul>
+**Web application project focused on Servlet management.**
 
-<p>Firstly, the project was created as a "Dynamic Web Project", on configuration only Java and Dynamic Web Module are set.</p>
-<p>The Content folder created have "src/main/webapp" as the path, you can put a more mnemonic name.</p>
+- [LinkedIn: https://www.linkedin.com/in/jpfigueredo/](#LinkedIn)
+- [Instagram: https://www.instagram.com/figfig.jpg/](#instagram)
+
+## Sumário
+
+- [Configuring Tomcat Server](#Configuring-Tomcat-Server)
+- [Trabalhando com POST e GET](#Trabalhando-com-POST-e-GET)
+- [Definindo o nosso modelo](#Definindo-o-nosso-modelo)
+- [Páginas dinâmicas com JSP](#Páginas-dinâmicas-com-JSP)
+- [JSTL e Expression Language](#JSTL-e-Expression-Language)
+- [Redirecionando o fluxo](#Redirecionando-o-fluxo)
+- [Completando o CRUD](#Completando-o-CRUD)
+- [Deploy da aplicação](#Deploy-da-aplicação)
+
+
+## Configuring Tomcat Server
+As always, before start coding, some configuration is needed.
+
+Firstly, the project was created as a "Dynamic Web Project", on configuration only Java and Dynamic Web Module are set.
+The Content folder created have "src/main/webapp" as the path, you can put a more mnemonic name.
 
 <p>On the Console, at "Servers"</p>
 
