@@ -19,13 +19,11 @@
 - [Configuring Tomcat Server](#Configuring-Tomcat-Server)
 - [Understanding Servlets](#Understanding-Servlets)
 - [Working with GET and POST](#Working-with-GET-and-POST)
-- [Definindo o nosso modelo](#Definindo-o-nosso-modelo)
-- [Páginas dinâmicas com JSP](#Páginas-dinâmicas-com-JSP)
-- [JSTL e Expression Language](#JSTL-e-Expression-Language)
-- [Redirecionando o fluxo](#Redirecionando-o-fluxo)
-- [Completando o CRUD](#Completando-o-CRUD)
-- [Deploy da aplicação](#Deploy-da-aplicação)
-
+- [Dinamic pages with JSP](#dinamic-pages-with-jsp)
+- [JSTL and Expression Language](#jstl-and-el)
+- [Redirecting](#redirecting)
+- [CRUD](#crud)
+- [Application Deploy](#application-deploy)
 
 ## Configuring Tomcat Server
 
@@ -270,7 +268,7 @@ public class Bank {
 
 
 ## Dinamic pages with JSP
-## JSTL e Expression Language
+## JSTL and Expression Language
 ## Redirecting
 ## CRUD
 ## Application Deploy
